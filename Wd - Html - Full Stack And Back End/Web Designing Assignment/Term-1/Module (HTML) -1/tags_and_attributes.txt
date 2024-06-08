@@ -1,0 +1,19 @@
+Q-1 : What are tags and attributes in HTML?
+
+=> HTML tags are what defines where an HTML element starts and where it ends. 
+
+=> There is usually an opening bracket followed by the element’s name and, finally, a closing bracket.
+
+=> In most cases, there is always a start tag and an end tag enclosing an element. Nevertheless, that is not the case for all elements.
+
+=> As far as HTML is concerned, there are several types of a tag.
+
+=> Example : <title>, <p>, <b>
+
+=> In other cases, the tags may contain other aspects.
+
+=> That usually happens when it comes to the opening tags.
+
+=> They may contain an extra attribute, including the likes of height, width, or CSS class name, among others.
+
+=> Example : <p class='info'>
