@@ -1,0 +1,9 @@
+Q-16 : How are active links different from normal links?
+
+=> The default color for normal and active links is blue. 
+
+=> Some browsers recognize an active link when the mouse cursor is placed over that link. 
+
+=> Whereas, others recognize active links when the link has the focus. 
+
+=> Those that don’t have a mouse cursor over that link is considered a normal link.

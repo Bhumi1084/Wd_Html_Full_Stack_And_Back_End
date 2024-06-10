@@ -1,0 +1,21 @@
+Q-18 : What is SVG?
+
+=> SVG stands for Scalable Vector Graphics. It is an XML-based markup language for describing 
+    two-dimensional vector graphics. 
+
+=> SVG allows for the creation of images that can be scaled to different sizes without losing 
+    quality, making it ideal for responsive design on the web.
+
+=> SVG supports interactivity and animation. You can add event listeners to SVG elements to make 
+    them interactive.
+
+=> SVG graphics can be styled with CSS, similar to how HTML elements are styled.
+
+=> SVG files are often smaller in size compared to other image formats, especially for simple 
+    graphics, because they are text-based and can be compressed effectively.
+
+=> Example : 
+
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>

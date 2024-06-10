@@ -1,0 +1,16 @@
+Q-12 : How to create a Hyperlink in HTML?
+
+=> Hyperlinks are one of the most exciting innovations the Web has to offer. 
+
+=> They've been a feature of the Web since the beginning, and are what makes the Web a web. 
+
+=> Hyperlinks allow us to link documents to other documents or resources, link to specific parts of 
+    documents, or make apps available at a web address.
+
+=> A basic link is created by wrapping the text or other content inside an <a> element and using 
+    the href attribute, also known as a Hypertext Reference, or target, that contains the web address.
+
+=> Example : 
+            <p>I'm creating a link to
+                <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
+            </p>

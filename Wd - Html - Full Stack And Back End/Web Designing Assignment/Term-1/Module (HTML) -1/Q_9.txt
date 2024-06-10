@@ -1,0 +1,16 @@
+Q-9 : How is Cell Padding different from Cell Spacing?
+
+=> Cellpadding : Cell padding is the term used to describe the area between a table cell’s border and its content.
+=> Cellspacing : The gap between each neighbouring cell is often called “cellspacing.”
+
+=> Cellpadding : It may be made using the HTML table> tag but changes the type property to cell padding.
+=> Cellspacing : It may be produced using the HTML table> tag. However, that changes the type property to cell spacing.
+
+=> Cellpadding : It concerns just one cell.
+=> Cellspacing : It is exposed to several cells (more than one) at once.
+
+=> Cellpadding : The default value for cell padding is 1.
+=> Cellspacing : Cellspacing has a default value of 2.
+
+=> Cellpadding : When compared to cell spacing, it is quite effective. It is, therefore, very commonly used.
+=> Cellspacing : Comparatively speaking, it is less efficient than cell padding.

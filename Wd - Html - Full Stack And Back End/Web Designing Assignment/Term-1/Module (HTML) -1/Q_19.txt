@@ -1,0 +1,22 @@
+Q-19 : What is difference between HTML and XHTML?
+
+=> HTML : Hypertext Markup Language is a markup language used to create web pages and other information that can be displayed in a web browser.
+=> XHTML : eXtensible Hypertext Markup Language is a markup language that is a stricter version of HTML and conforms to XML syntax.
+
+=> HTML : HTML allows for loose syntax, with end tags and attributes often being optional.
+=> XHTML : XHTML requires end tags for all elements and attributes to be quoted.
+
+=> HTML : HTML allows for multiple DTDs, including HTML 4.01 and HTML5.
+=> XHTML : XHTML requires the use of a specific DTD, such as XHTML 1.0 Strict or XHTML 1.1.
+
+=> HTML : HTML does not support namespaces.
+=> XHTML : XHTML supports namespaces, allowing for the integration of other XML languages.
+
+=> HTML : HTML allows for the use of deprecated attributes.
+=> XHTML : XHTML does not allow the use of deprecated attributes and requires all attributes to be lowercase.
+
+=> HTML : HTML will continue to be supported by web browsers.
+=> XHTML : XHTML support by web browsers is limited and it is now largely replaced by HTML5.
+
+=> HTML : HTML continues to evolve, with the latest version being HTML5.
+=> XHTML : XHTML development has largely been discontinued, with future developments focusing on HTML5.

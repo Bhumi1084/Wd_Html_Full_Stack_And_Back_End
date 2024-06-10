@@ -1,0 +1,21 @@
+Q-20 : What are logical and physical tags in HTML?
+
+=> In HTML, tags can be categorized into logical (semantic) and physical (presentational) tags.
+
+1. Logical (Semantic) Tags:
+    -> Logical or semantic tags describe the meaning and structure of the content.
+
+    -> They provide information about the role of the content within the document, which helps 
+        search engines and assistive technologies understand and navigate the content better.
+
+    -> They are important for accessibility, SEO, and proper document structure.
+
+    -> Example : <p>, <ul>, <ol>, <li>, <a> etc.
+
+2. Physical (Presentational) Tags:
+    -> Physical or presentational tags are used to directly define the appearance of the content, 
+        without providing any semantic meaning. 
+        
+    -> They are mainly concerned with how the content should look.
+
+    -> Example : <tt>, <u>, <i>, <b>

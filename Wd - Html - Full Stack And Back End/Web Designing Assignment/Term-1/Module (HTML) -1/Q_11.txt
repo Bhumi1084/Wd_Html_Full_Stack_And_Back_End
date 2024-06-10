@@ -1,0 +1,16 @@
+Q-11 : What is the difference between a block-level element and an inline element?
+
+=> INLINE ELEMENTS : Take up only as much width as necessary to display their content.
+=> BLOCK ELEMENTS : Take up the full width of their parent container by default.
+
+=> INLINE ELEMENTS : Take up only as much height as necessary to display their content.
+=> BLOCK ELEMENTS : Take up the height of their content by default, but can be set to a fixed or percentage height.
+
+=> INLINE ELEMENTS : Do not cause line breaks.
+=> BLOCK ELEMENTS : Cause line breaks before and after the element.
+
+=> INLINE ELEMENTS : Only horizontal margins and padding can be applied to them.
+=> BLOCK ELEMENTS : All types of margins and padding can be applied to them.
+
+=> INLINE ELEMENTS : <strong>, <em>, <a>, <span>
+=> BLOCK ELEMENTS : <div>, <p>, <h1> - <h6>, <ul>, <ol>, <table>, <form>
