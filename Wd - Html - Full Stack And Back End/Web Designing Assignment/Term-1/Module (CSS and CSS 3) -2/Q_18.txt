@@ -1,0 +1,32 @@
+Q-18 : What are the media types allowed by CSS? 
+
+-> In CSS, media types are used to apply styles based on the characteristics of the device or viewport where the document is being viewed.
+
+-> Media types help ensure that styles are optimized for different devices, screen sizes, and other display features.
+
+-> CSS media types and features provide powerful tools for responsive and adaptive design, allowing you to tailor styles to different devices and conditions.
+
+-> By using media queries, you can ensure that your website or application delivers an optimal user experience across various platforms and display contexts.
+
+-> Example:
+
+/* Styles for screens */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 75%;
+  }
+}
+
+/* Styles for print media */
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+/* Styles for devices with high resolution */
+@media (min-resolution: 192dpi) {
+  .high-res-image {
+    background-image: url('high-res-image.png');
+  }
+}

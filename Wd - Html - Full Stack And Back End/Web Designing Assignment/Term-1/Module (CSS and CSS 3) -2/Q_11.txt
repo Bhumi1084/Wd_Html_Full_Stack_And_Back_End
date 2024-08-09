@@ -1,0 +1,75 @@
+Q-11 : How to center block elements using CSS1?
+
+-> In CSS1, the options for centering block elements are quite limited compared to modern CSS, but you can still achieve some basic centering techniques.
+-> Here’s how you can center block elements using CSS1:
+
+=> Centering a Block Element Horizontally:
+-> To center a block element horizontally, you can use the margin property with auto values on the left and right sides. This method works for block elements like div, p, etc., when the element has a specified width:
+-> Example :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centering Block Elements in CSS1</title>
+  <style>
+    .centered {
+      width: 50%; /* Specify a width for the block element */
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="centered">This block element is centered horizontally.</div>
+</body>
+</html>
+
+=> Centering a Block Element Vertically:
+-> CSS1 doesn’t provide a straightforward method for vertical centering of block elements.
+-> Example :
+
+.centered-vertically {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+=> Legacy Vertical Centering Techniques:
+-> You can simulate vertical centering by using a table layout, though it is more of a workaround than a true centering solution
+-> Example :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Centering in CSS1</title>
+  <style>
+    .container {
+      display: table;
+      width: 100%;
+      height: 100vh; /* Full viewport height */
+      background-color: #f0f0f0;
+    }
+    .centered {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      background-color: #ccc;
+      padding: 20px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="centered">This block element is centered both horizontally and vertically using a table layout.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Q-5 : What do you understand by CSS opacity?
+
+-> CSS opacity is a property used to control the transparency level of an element. 
+
+-> It specifies how opaque or transparent an element is, ranging from fully transparent to fully opaque. 
+
+-> The value of opacity ranges from 0.0 to 1.0, where:
+    1. 0.0 : represents full transparency (the element is completely invisible).
+    2. 1.0 : represents full opacity (the element is completely opaque).
+
+-> Example :
+    .transparent-box {
+        background-color: red;
+        opacity: 0.5;
+    }
+
+-> The opacity property affects not only the element it is applied to but also all of its child elements. 
+
+-> This means that if a parent element has opacity: 0.5;, all of its children will also appear 50% transparent.
+
+-> opacity affects the entire element, including its background, text, borders, and any child elements.
+
+-> To change the opacity of only the background or specific parts of an element, other techniques such as RGBA colors or CSS gradients may be used.
+
+-> Applying opacity can affect rendering performance, especially for complex or large elements, as the browser needs to calculate the transparency for each pixel.
+
+-> It's important to use it judiciously to avoid performance issues.
+
+-> Example :
+    .transparent-background {
+        background-color: rgba(255, 0, 0, 0.5); /* Red with 50% opacity */
+        color: black; /* Text remains fully opaque */
+    }

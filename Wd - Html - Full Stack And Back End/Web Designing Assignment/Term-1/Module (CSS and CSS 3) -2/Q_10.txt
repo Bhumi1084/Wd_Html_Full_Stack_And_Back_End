@@ -1,0 +1,44 @@
+Q-10 : Why should background and color be used as separate properties?
+
+-> Using background and color as separate properties in CSS provides several advantages related to clarity, flexibility, and maintainability.
+
+-> Here are the key reasons why it's beneficial to use them separately:
+    1. Clarity and Readability
+    2. Flexibility
+    3. Maintainability
+    4. Avoiding Conflicts
+    5. Responsive Design
+
+-> Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background and Color Example</title>
+  <style>
+    .example {
+      background-color: #f0f0f0; /* Background color */
+      color: #333; /* Text color */
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .highlight {
+      background-color: yellow; /* Only changes the background color */
+    }
+
+    @media (max-width: 600px) {
+      .example {
+        background-color: #333;
+        color: #f0f0f0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="example">This is an example text.</div>
+  <div class="example highlight">This is a highlighted text.</div>
+</body>
+</html>

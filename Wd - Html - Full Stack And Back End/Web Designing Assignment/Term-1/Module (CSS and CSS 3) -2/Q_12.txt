@@ -1,0 +1,51 @@
+Q-12 : How to maintain the CSS specifications?
+
+-> Maintaining CSS specifications effectively involves adhering to best practices for writing, organizing, and managing CSS code.
+
+-> Here are some key strategies to ensure your CSS is well-maintained and meets standards:
+
+=> Follow a Consistent Naming Convention:
+-> Class Naming: Use clear, descriptive names for classes and IDs that convey their purpose or the element's role.
+Example :
+    .button--primary { /* Block with a primary modifier */ }
+    .card__header { /* Element inside a card block */ }
+
+=> Organize CSS Code:
+-> Modular CSS: Break CSS into smaller, reusable modules or components. This can be done by grouping related styles together or using a CSS preprocessor like Sass or Less.
+Example :
+    /* Buttons */
+    .button { /* styles */ }
+    .button--primary { /* styles */ }
+
+    /* Cards */
+    .card { /* styles */ }
+    .card__header { /* styles */ }
+
+=> Use CSS Preprocessors:
+-> Preprocessors: Tools like Sass or Less can help manage complex CSS. They offer features like variables, nesting, and mixins, which make CSS easier to maintain and scale.
+Example :
+    $primary-color: #007bff;
+
+    .button {
+        background-color: $primary-color;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+
+=> Use CSS Variables:
+-> Custom Properties: CSS variables (custom properties) allow you to define reusable values and ensure consistency across your styles.
+Example :
+    :root {
+        --primary-color: #007bff;
+    }
+
+    .button {
+        background-color: var(--primary-color);
+    }
+
+=> Regularly Review and Refactor:
+-> Audit CSS: Periodically review and refactor your CSS to remove unused styles and ensure it adheres to the current design standards.
+-> Tools: Use tools like CSS linting and optimization tools to help identify and correct issues.
+    -> CSS Lint: For identifying potential issues in CSS.
+    -> PurgeCSS: To remove unused CSS.
