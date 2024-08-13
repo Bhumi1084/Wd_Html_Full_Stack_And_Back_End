@@ -1,0 +1,10 @@
+Q-4 : Name a few CSS style components
+
+=> Color and Backgrounds: color, background-color, background-image, background-repeat, background-position.
+=> Text and Fonts: font-family, font-size, font-weight, text-align, text-decoration, line-height.
+=> Box Model: width and height, margin, padding, border, box-sizing.
+=> Layout: display, position, top, right, bottom, left, float, clear.
+=> Flexbox: display: flex, flex-direction, justify-content, align-items, flex-wrap.
+=> Grid: display: grid, grid-template-columns and grid-template-rows, grid-gap, justify-items, align-items.
+=> Borders and Outline: border, border-radius, border-style, border-width, outline.
+=> Shadows: box-shadow, text-shadow.

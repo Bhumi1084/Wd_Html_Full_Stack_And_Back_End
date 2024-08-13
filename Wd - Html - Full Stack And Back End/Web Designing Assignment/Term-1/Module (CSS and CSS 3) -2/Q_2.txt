@@ -1,0 +1,13 @@
+Q-2 : What are the disadvantages of CSS?
+
+=> While CSS offers many advantages, it also comes with some disadvantages:
+
+1. Browser Compatibility
+2. Complexity for Large Projects
+3. Global Scope
+4. Cascading Issues
+5. Limited Design Control
+6. Dependency on HTML Structure
+7. Performance Issues
+8. Learning Curve
+9. Debugging Difficulties

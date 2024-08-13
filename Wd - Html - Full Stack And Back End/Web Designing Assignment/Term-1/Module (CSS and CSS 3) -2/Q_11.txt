@@ -1,0 +1,23 @@
+Q-11 : How to center block elements using CSS1?
+
+-> In CSS1, the options for centering block elements are quite limited compared to modern CSS, but you can still achieve some basic centering techniques.
+-> Here’s how you can center block elements using CSS1:
+
+=> Centering a Block Element Horizontally:
+-> To center a block element horizontally, you can use the margin property with auto values on the left and right 
+  sides. This method works for block elements like div, p, etc., when the element has a specified width:
+
+=> Centering a Block Element Vertically:
+-> CSS1 doesn’t provide a straightforward method for vertical centering of block elements.
+-> Example :
+
+.centered-vertically {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+=> Legacy Vertical Centering Techniques:
+-> You can simulate vertical centering by using a table layout, though it is more of a workaround than a 
+  true centering solution

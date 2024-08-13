@@ -1,0 +1,14 @@
+Q-1 : What are the benefits of using CSS?
+
+=> CSS provides numerous benefits for web development, including:
+
+1. Separation of Content and Design
+2. Consistency
+3. Improved Load Times
+4. Enhanced Accessibility
+5. Greater Design Flexibility    
+6. Reduced HTML File Size
+7. Responsive Design  
+8. Ease of Maintenance
+9. Better Performance    
+10. Professional Appearance    

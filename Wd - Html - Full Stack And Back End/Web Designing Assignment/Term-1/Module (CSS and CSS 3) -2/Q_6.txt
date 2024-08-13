@@ -1,0 +1,29 @@
+Q-6 : How can the background color of an element be changed?
+
+-> The background color of an element can be changed using the background-color property in CSS. 
+
+-> This property allows you to set the background color of an HTML element. 
+
+-> You can specify the color using various formats, including named colors, hexadecimal values, RGB values, RGBA values, HSL values, and HSLA values. 
+
+-> Here are examples of how to use each format:
+
+-> Example :
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Background Color Examples</title>
+            <style>
+            .example1 {
+                background-color: blue;
+                color: white; /* Text color for contrast */
+                padding: 10px;
+            }
+            </style>
+        </head>
+        <body>
+            <div class="example1">Named Color (Blue)</div>            
+            </body>
+    </html>

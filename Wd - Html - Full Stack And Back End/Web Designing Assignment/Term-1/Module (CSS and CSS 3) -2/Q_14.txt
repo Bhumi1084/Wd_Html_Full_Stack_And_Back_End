@@ -1,0 +1,10 @@
+Q-14 : What is embedded style sheets?
+
+-> Embedded style sheets, also known as internal style sheets, involve placing CSS rules directly within 
+    the <style> element inside the <head> section of an HTML document.
+
+-> Embedded style sheets are useful for defining styles specific to a single HTML document or for quick, 
+    local styling
+
+-> For larger projects or when styles need to be reused across multiple pages, external style sheets are 
+    generally preferred due to their reusability and separation of concerns.

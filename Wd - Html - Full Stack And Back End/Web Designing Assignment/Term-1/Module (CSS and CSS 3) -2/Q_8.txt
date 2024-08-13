@@ -1,0 +1,14 @@
+Q-8 : What is the use of the background-position property?
+
+-> The background-position property in CSS is used to specify the initial position of a background image within its container.
+
+-> It defines where the background image is placed relative to the element it is applied to.
+
+-> The property can take various values, including keywords, length values, percentages, and a combination of these.
+
+-> Here are the main ways to use the background-position property:
+    1) Top Left
+    2) Top Right
+    3) Bottom Left
+    4) Bottom Right
+    5) Center

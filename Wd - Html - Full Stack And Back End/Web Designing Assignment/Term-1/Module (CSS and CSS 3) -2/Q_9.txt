@@ -1,0 +1,24 @@
+Q-9 : Which property controls the image scroll in the background?
+
+-> Here are the possible values for the background-attachment property:
+
+    1) scroll (default): The background image scrolls with the content.
+    -> Example:
+        .scroll {
+            background-image: url('path/to/image.jpg');
+            background-attachment: scroll;
+        }
+
+    2) fixed: The background image stays fixed in the viewport, meaning it does not move when the content is scrolled.
+    -> Example:
+        .fixed {
+            background-image: url('path/to/image.jpg');
+            background-attachment: fixed;
+        }
+
+    3) local: The background image scrolls with the element's content. This value is primarily used when the element itself has a scrollbar.
+    -> Example:
+        .local {
+            background-image: url('path/to/image.jpg');
+            background-attachment: local;
+        }

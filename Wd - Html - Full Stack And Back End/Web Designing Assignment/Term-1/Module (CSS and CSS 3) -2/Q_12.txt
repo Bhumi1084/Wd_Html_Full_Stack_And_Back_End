@@ -1,0 +1,21 @@
+Q-12 : How to maintain the CSS specifications?
+
+-> Maintaining CSS specifications effectively involves adhering to best practices for writing, organizing, and 
+    managing CSS code.
+
+-> Here are some key strategies to ensure your CSS is well-maintained and meets standards:
+
+=> Follow a Consistent Naming Convention:
+-> Class Naming: Use clear, descriptive names for classes and IDs that convey their purpose or the element's role.
+
+=> Organize CSS Code:
+-> Modular CSS: Break CSS into smaller, reusable modules or components. This can be done by grouping related 
+    styles together or using a CSS preprocessor like Sass or Less.
+
+=> Use CSS Preprocessors:
+-> Preprocessors: Tools like Sass or Less can help manage complex CSS. They offer features like variables, 
+    nesting, and mixins, which make CSS easier to maintain and scale.
+
+=> Use CSS Variables:
+-> Custom Properties: CSS variables (custom properties) allow you to define reusable values and ensure 
+    consistency across your styles.
