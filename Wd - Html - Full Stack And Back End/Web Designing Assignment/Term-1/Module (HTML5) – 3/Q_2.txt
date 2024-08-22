@@ -1,0 +1,19 @@
+Q-2 : How to embed audio and video in a webpage?
+
+=> The <audio> tag is used to embed audio content on a webpage.
+
+-> Example : 
+        <audio controls>
+            <source src="audio-file.mp3" type="audio/mpeg">
+            <source src="audio-file.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+=> The <video> tag is used to embed video content on a webpage.
+
+-> Example : 
+        <video width="640" height="360" controls>
+            <source src="video-file.mp4" type="video/mp4">
+            <source src="video-file.ogg" type="video/ogg">
+            Your browser does not support the video element.
+        </video>

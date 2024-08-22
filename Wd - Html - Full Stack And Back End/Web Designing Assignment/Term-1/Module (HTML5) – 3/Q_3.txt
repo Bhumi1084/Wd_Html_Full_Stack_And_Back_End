@@ -1,0 +1,8 @@
+Q-3 : Semantic element in HTML5?
+
+=> In HTML5, semantic elements are tags that provide meaning to the structure of a webpage, not just how it looks.
+
+=> These elements clearly describe their purpose in a way that both the browser and developers can understand.
+
+=> Here are some common semantic elements in HTML5 :
+    <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>, <figure>, <figcaption>, <time>

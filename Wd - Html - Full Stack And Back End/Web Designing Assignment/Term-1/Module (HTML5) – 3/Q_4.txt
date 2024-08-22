@@ -1,0 +1,20 @@
+Q-4 : Canvas and SVG tags
+
+=> Canvas tags :
+
+-> The <canvas> element is used for rendering graphics on the fly via JavaScript. 
+-> It provides a drawable region in the browser, which can be used to draw 2D shapes, images, and even complex 
+    animations.
+-> The canvas itself is just a blank area; you must use JavaScript to draw anything on it. 
+-> This means you can dynamically create and update graphics, but once something is drawn, it is part of the 
+    canvas and cannot be directly manipulated
+
+=> SVG tags :
+
+-> The <svg> element is used to define vector-based graphics in XML format. 
+-> SVG graphics can be static or interactive, and they are scalable without losing quality, which is perfect 
+    for responsive designs.
+-> Unlike <canvas>, SVG uses XML to describe the shapes. 
+-> Because SVG elements are part of the DOM (Document Object Model), they can be styled with CSS, and manipulated 
+    or animated using JavaScript. 
+-> Individual elements within an SVG can be referenced, styled, or animated independently.

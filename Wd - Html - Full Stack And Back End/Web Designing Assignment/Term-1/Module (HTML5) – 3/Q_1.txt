@@ -1,0 +1,16 @@
+Q - 1 : What are the new tags added in HTML5?
+
+=> HTML5 introduced several new semantically meaningful tags.
+    -> <section>
+    -> <header>
+    -> <footer>
+    -> <nav>
+    -> <mark>
+    -> <main>
+    -> <audio>
+    -> <video>
+    -> <source>
+    -> <details>
+    -> <summary>
+    -> <template>
+    -> <canvas>
